@@ -1,0 +1,19 @@
+{
+  "name": "git-modify-time",
+  "version": "1.0.0",
+  "description": "A Node.js tool to get file modification times from git status output, sorted by modification time in descending order",
+  "main": "git-file-times.js",
+  "bin": {
+    "git-file-times": "./git-file-times.js"
+  },
+  "scripts": {
+    "start": "node git-file-times.js",
+    "test": "node git-file-times.js"
+  },
+  "keywords": ["git", "file", "modification", "time", "nodejs", "cli"],
+  "author": "sungole",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
